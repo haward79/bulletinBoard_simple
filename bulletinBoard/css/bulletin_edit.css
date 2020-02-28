@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* Override normal datetime column for edition. */
+.bulletin_column_datetime
+{
+    width: 170px;
+    min-width: 170px;
+    max-width: 170px;
+}
+
+/* Textbox */
+.bulletin_input_textbox
+{
+    display: block;
+    margin: 0px;
+    padding: 5px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+/* TextArea */
+.bulletin_input_textarea
+{
+    display: block;
+    margin: 0px;
+    padding: 5px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+/* Select */
+.bulletin_input_selection
+{
+    padding: 5px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+/* Input field interactive style. */
+.bulletin_input_textbox:hover, .bulletin_input_textbox:focus, .bulletin_input_textarea:hover, .bulletin_input_textarea:focus, .bulletin_input_selection:hover, .bulletin_input_selection:focus
+{
+    border: 1px solid silver;
+    box-shadow: inset 0px 0px 5px #387db6;
+}
+
+/* Dynamically add field button. */
+#bulletin_input_newLink, #bulletin_input_newFile
+{
+    display: block;
+    margin: 0px 10px 10px auto;
+}
+

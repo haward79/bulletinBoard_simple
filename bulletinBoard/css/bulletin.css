@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/* General */
+.bulletin_table
+{
+    border-collapse: collapse;
+}
+
+.bulletin_table th
+{
+    padding: 7px 20px;
+    border-right: 1px solid #ffffff;
+    color: #fffec9;
+    background-color: #030382;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.bulletin_table td
+{
+    padding: 6px 10px;
+    border-right: 1px solid #ffffff;
+    font-family: 微軟正黑體, Arial;
+    font-size: 16px;
+}
+
+/* Zebra texture */
+.bulletin_table_zebraTexture tr:nth-child(even) td
+{
+    background-color: #e8e8fd;
+}
+
+/* Basic */
+.bulletin_column_title_compact
+{
+    padding: 6px 0px !important;
+}
+
+.bulletin_type_span
+{
+    display: inline;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.bulletin_title_span
+{
+    display: inline-block;
+    width: calc(100vw - 100px);
+    vertical-align: top;
+}
+
+.bulletin_column_type
+{
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+
+.bulletin_column_datetime
+{
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+    text-align: center;
+}
+
+.bulletin_column_datetime_compact
+{
+    padding: 6px 0px !important;
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    text-align: center;
+}
+
+/* Detail */
+.bulletin_column_linkFile
+{
+    padding: 0px !important;
+    background-color: transparent !important;
+    white-space: nowrap;
+}
+
+.bulletin_column_linkDetail
+{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    border-bottom: 1px solid #ffffff;
+    background-color: #ececff;
+    white-space: normal;
+}
+
+.bulletin_column_linkDetail h1
+{
+    margin: 10px;
+    padding: 3px;
+    font-family: 微軟正黑體, Arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bulletin_column_fileDetail
+{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    border-bottom: 1px solid #ffffff;
+    background-color: #ececff;
+    white-space: normal;
+}
+
+.bulletin_column_fileDetail h1
+{
+    margin: 10px;
+    padding: 3px;
+    font-family: 微軟正黑體, Arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Bullet points */
+.bulletin_table ul, .bulletin_table ol
+{
+    margin: 10px;
+}
+

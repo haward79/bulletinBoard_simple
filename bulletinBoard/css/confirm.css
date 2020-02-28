@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+* { box-sizing: border-box; }
+
+/* Confirm block. */
+.confirm_block
+{
+    margin: 40px auto;
+    max-width: 600px;
+    border: 1px solid black;
+}
+
+.confirm_block h1
+{
+    margin: 10px 0px 0px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Confirm block -> text message */
+.confirm_text_message
+{
+    padding: 0px 15px;
+    text-align: center;
+}
+
+/* Confirm block -> button container */
+.confirm_button_container_ok
+{
+    margin: 0px auto;
+    width: 65px;
+}
+
+.confirm_button_container_yesNo
+{
+    margin: 0px auto;
+    width: 140px;
+}
+
+/* Confirm block -> button container -> button */
+#confirm_button_yes, #confirm_button_no
+{
+    display: inline-block;
+    margin: 10px auto;
+    width: 65px;
+}
+
